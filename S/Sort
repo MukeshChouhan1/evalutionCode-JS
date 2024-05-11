@@ -1,0 +1,7 @@
+Bubble sort --> TC= O(n^2)   SC=O(1)
+Selectionsort-->  TC= O(n^2)   SC=O(1)
+ Insertion Sort--> TC=O(n2)  SC=O(1)
+ Merge Sortv-->vTC=O(nlogn) SC=O(n)
+ Heap Sort--> Worst case = Average Case = Best Case = O(n log n)
+               SC-->space complexity is O(1).
+
