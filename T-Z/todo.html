@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="search_bar" />
+      <button id="btn">Add Task</button>
+      <div id="append_tasks">f</div>
+    </div>
+  </body>
+</html>
+<script>
+  let btn = document.getElementById("btn");
+  let main_div = document.getElementById("append_tasks");
+  btn.addEventListener("click", function (e) {
+    let search_bar = document.getElementById("search_bar").value;
+    let div = document.createElement("p");
+    div.innerText = search_bar;
+    main_div.append(div);
+  });
+</script>
